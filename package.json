@@ -4,7 +4,7 @@
   "description": "a blog web",
   "main": "start.js",
   "scripts": {
-    "start": "node service/start.js",
+    "start": "node server/start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -40,7 +40,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.10.4",
-    "express": "^4.17.1"
+    "@babel/polyfill": "^7.10.4"
   }
 }
